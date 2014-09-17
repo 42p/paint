@@ -1,0 +1,47 @@
+@import '../bower_components/meyer-reset/stylesheets/_meyer-reset';
+@import "icons";
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html,body,.level1,.level2,.toolbar{
+  height: 100%;
+}
+.thumbnail {
+  height: 200px;
+
+  img.pull-right {
+    width: 50px;
+  }
+}
+paint-toolbar{
+  float: left;
+  width: 10%;
+  background-color: #F8F8F8 ;
+}
+
+div.canvas{
+  width: 90%;
+  float: left;
+  border:1px solid red;;
+  height: 100%;
+}
+
+.color-selector{
+  position: relative;
+}
+.picker{
+  left: 0;
+  top: 0;
+  width:100%;
+  height: 23px;
+  z-index: 100;
+}

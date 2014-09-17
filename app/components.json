@@ -1,0 +1,22 @@
+{
+    "PEN_TOOL": {
+        "title": "Pen",
+        "tooltip":"draw free form line with selected line width",
+        "componentId":"PEN_TOOL"
+    },
+    "ERASER_TOOL":{
+        "title": "Eraser",
+        "tooltip":"draw free form line with selected line width",
+        "componentId":"PEN_TOOL"
+    },
+    "COLORPICKER_TOOL":{
+        "title": "Eraser",
+        "tooltip":"draw free form line with selected line width",
+        "componentId":"PEN_TOOL"
+    },
+    "RECTANGLE_TOOL":{
+        "title": "Rectanglae",
+        "tooltip":"draw free form line with selected line width",
+        "componentId":"RECTANGLE_TOOL"
+    }
+}

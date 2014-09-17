@@ -1,0 +1,33 @@
+$eraser-icon: '../images/icons/eraser.png';
+$colorpicker-icon: '../images/icons/colorpicker.png';
+$pen-icon: '../images/icons/pen.png';
+$rectangle-icon: '../images/icons/rectangle.png';
+
+@mixin iconstyle() {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  margin: 50px auto 20px auto;
+
+}
+
+.rectangle {
+  @include iconstyle();
+  background-image:url($rectangle-icon);
+}
+
+.color-picker {
+  @include iconstyle();
+  background-image:url($colorpicker-icon);
+}
+
+.pen {
+  @include iconstyle();
+  background-image:url($pen-icon);
+}
+
+.eraser {
+  @include iconstyle();
+  background-image:url($eraser-icon);
+}
