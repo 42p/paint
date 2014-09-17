@@ -1,0 +1,31 @@
+.rectangle {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  margin: 50px auto 20px auto;
+  background-image: url('../images/icons/rectangle.png'); }
+
+.color-picker {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  margin: 50px auto 20px auto;
+  background-image: url('../images/icons/colorpicker.png'); }
+
+.pen {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  margin: 50px auto 20px auto;
+  background-image: url('../images/icons/pen.png'); }
+
+.eraser {
+  display: block;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  margin: 50px auto 20px auto;
+  background-image: url('../images/icons/eraser.png'); }
